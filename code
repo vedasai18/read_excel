@@ -21,4 +21,13 @@ if __name__=='__main__':
     app.run(debug=True)
 
 
+#index.html
+<form class="" action="data" method="post">
+    <input type="file" name="upload-file" value="">
+    <input type="submit" name="" value="Submit">
+
+
+#data.html
+{{data | safe}}
+
   
